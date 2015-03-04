@@ -12,5 +12,4 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/jtimberman/knife-config"
   s.require_path = 'lib'
   s.files = %w(LICENSE README.md) + Dir.glob("lib/**/*")
-  s.add_dependency('chef', '>= 0.10.0')
 end
